@@ -1,0 +1,145 @@
+
+.container {
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 750px; /* Increased for a larger form */
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  background: linear-gradient(to right, #f0f4ff, #f8f9ff);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 0.6s ease-out;
+}
+
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(to right, #4a90e2, #7b68ee);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+  color: white;
+}
+
+.title {
+  font-size: 50px;
+  color: #472c50;
+  font-weight: 700;
+  margin: 10px 0;
+  /* background: linear-gradient(90deg, #4a90e2, #7b68ee); */
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+ 
+}
+
+
+.subtitle {
+  font-size: 18px;
+  color: #555;
+  font-weight: 500;
+  background-color: rgba(122, 138, 255, 0.1);
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+
+
+
+.form-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.gradient-bar {
+  background: linear-gradient(to right, #4a90e2, #7b68ee);
+  height: 5px;
+}
+
+.form-content {
+  padding: 50px; /* Increased */
+}
+
+.field-group {
+  margin-bottom: 25px;
+}
+
+.label {
+  display: block;
+  font-size: 18px; /* Increased */
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  padding: 14px 18px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 20px; /* Increased */
+  box-sizing: border-box;
+}
+
+.input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.submit-button {
+  width: 100%;
+  background: linear-gradient(to right, #4a90e2, #7b68ee);
+  color: white;
+  font-weight: bold;
+  padding: 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px; /* Increased */
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.2s ease;
+}
+
+.submit-button:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+.error-text {
+  color: red;
+  font-size: 20px;
+  margin-top: 4px;
+
+}
+.errorInput {
+  border: 1px solid red;
+}
+
+
