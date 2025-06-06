@@ -74,6 +74,11 @@ const validate = () => {
   };
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> acbae766017ba3065976805f9883ce7dca268387
   return (
     <div className={styles.container}>
       <div className={styles["form-wrapper"]}>
