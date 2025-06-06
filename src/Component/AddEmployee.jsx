@@ -74,8 +74,6 @@ const validate = () => {
   };
 
 
-
-
   return (
     <div className={styles.container}>
       <div className={styles["form-wrapper"]}>
